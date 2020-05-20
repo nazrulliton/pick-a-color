@@ -11,6 +11,7 @@ const Navb = () => {
         <Nav className="ml-auto">
         <Nav.Link href="#">Home</Nav.Link>
         <Nav.Link href="#converter">Converter</Nav.Link>
+        <Nav.Link href="https://colorslider-fb455.web.app/" target="_blank">Slider</Nav.Link>
         <Nav.Link href="https://www.rapidtables.com/convert/color/how-rgb-to-hex.html" target="_blank">Learn More</Nav.Link>
         </Nav>
         </Navbar>
