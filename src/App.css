@@ -18,6 +18,7 @@
   padding-top: 300px;
   background-color:#ffb6c1;
   height: 100vh;
+  width: 100vh;
 }
 
 .left input {
@@ -31,5 +32,29 @@
 .right {
   background-color: #b6e6ff;
   padding-top: 300px;
+  height: 100vh;
+  width: 100vh;
 
+}
+
+.aboutText {
+  margin-top: 50px;
+  /* background-color: lightgrey;
+  border: 2px solid black; */
+}
+
+.aboutText p, h3 {
+  text-align: left;
+}
+
+.aboutButtons {
+  margin-top: 30px;
+}
+
+.aboutButtons Button {
+  margin-right: 10px;
+  background-color: lightgrey;
+  border-color: black;
+  color: black;
+  font-weight: bold;
 }
