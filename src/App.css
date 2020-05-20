@@ -36,23 +36,22 @@
   width: 100vh;
 
 }
-
 .aboutText {
-  margin-top: 50px;
-  /* background-color: lightgrey;
-  border: 2px solid black; */
+  margin-top: 200px;
+  /* border: 2px solid black; */
+  margin-left: 15px;
+  margin-right: 15px;
 }
-
 .aboutText p, h3 {
   text-align: left;
 }
 
 .aboutButtons {
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .aboutButtons Button {
-  margin-right: 10px;
+  margin-right: 20px;
   background-color: lightgrey;
   border-color: black;
   color: black;
