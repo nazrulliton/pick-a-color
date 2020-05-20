@@ -41,6 +41,8 @@
   /* border: 2px solid black; */
   margin-left: 15px;
   margin-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .aboutText p, h3 {
   text-align: left;
@@ -56,4 +58,10 @@
   border-color: black;
   color: black;
   font-weight: bold;
+}
+
+.icon {
+position: absolute;
+bottom: 0;
+right: 50%;
 }

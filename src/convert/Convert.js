@@ -48,8 +48,8 @@ const Converter = () => {
                     <div className="text-area-rgb">
                         <h2>#Hex to RGB</h2>
                         <p>Enter Hex value: <input type="text" placeholder="Include the #"  ref={calcValue} id="calcValue" style={{zIndex: '1'}} /></p>
-                        <Button onClick={formHToRGB}>Convert</Button>
                         <p>Drum Roll Please: <input type="text"  ref ={displayValue} id="displayValue"/></p>
+                        <Button onClick={formHToRGB}>Convert</Button>
                     </div>
                 </Col>
                 <Col className="right">
@@ -59,8 +59,8 @@ const Converter = () => {
                         <input type="text" placeholder="Red values" ref={redVal} id="redVal"/>
                         <input type="text" placeholder="Green values" ref={greenVal} id="greenVal"/>
                         <input type="text" placeholder="Blue values" ref={blueVal} id="blueVal"/></p>
-                        <Button onClick={formRToHex}>Convert</Button>
                         <p className="style-g">Drum Roll Please: <input type="text" className="displayH" id="displayHexValue" ref={disValue}/></p>
+                        <Button onClick={formRToHex}>Convert</Button>
                     </div>
                 </Col>
 

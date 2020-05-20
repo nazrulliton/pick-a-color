@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import {Button, Container, Row, Col} from 'react-bootstrap';
 import { ChromePicker, SwatchesPicker, PhotoshopPicker } from 'react-color';
 import Modal from 'react-modal'
+import { FaArrowCircleDown } from "react-icons/fa";
+
 
 Modal.setAppElement('#root')
 
@@ -66,6 +68,9 @@ const About = () => {
                     }
                 </Col>
             </Row>
+            <div className='icon'>
+            <a href="#converter" ><FaArrowCircleDown color="black" size="6rem"/></a>
+            </div>
         </Container> 
         </>
         )
