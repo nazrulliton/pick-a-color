@@ -2,20 +2,22 @@
   text-align: center;
 }
 
-#converter {
-  padding-top: 5px;
-  background-color: lightgrey;
-
-}
-.container {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  padding-top: 50px;
+.about {
+  padding-top: 20px;
+  padding-bottom: 20px;
   height: 100vh;
 }
 
+#converter {
+  margin-top: 5px;
+  background-color: lightgrey;
+  /* height: 100vw; */
+}
+
 .left {
+  padding-top: 300px;
   background-color:#ffb6c1;
+  height: 100vh;
 }
 
 .left input {
@@ -28,4 +30,6 @@
 }
 .right {
   background-color: #b6e6ff;
+  padding-top: 300px;
+
 }
